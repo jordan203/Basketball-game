@@ -1,15 +1,16 @@
 var player_name;
+var team;
 
 function Player(name)
 {
 	this.name = name;
-	this.points =0;
-	this.rebounds =0;
-	this.assists =0;
-	this.blocks =0;
-	this.steals =0;
-	this.player_field_gold_p =0;
-	this.player_3_point_p =0;
+	this.points = 0;
+	this.rebounds = 0;
+	this.assists = 0;
+	this.blocks = 0;
+	this.steals = 0;
+	this.player_field_gold_p = 0;
+	this.player_3_point_p = 0;
 
 
 }
